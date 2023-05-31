@@ -44,7 +44,7 @@ pipeline {
      }
         post {
       success {
-        slackSend channel: '#fundamentos-devops', color: '#000', message: 'Funcionó :smile:  :star: JP saludos  ', teamDomain: 'sustantiva-sede', tokenCredentialId: 'Token-slack2', username: 'Juan Pablo Grover Pinto'
+        slackSend channel: '#fundamentos-devops', color: '#000', message: 'Funcionó :smile: JP saludos :star:   ', teamDomain: 'sustantiva-sede', tokenCredentialId: 'Token-slack2', username: 'Juan Pablo Grover Pinto'
       }
    } 
 }
